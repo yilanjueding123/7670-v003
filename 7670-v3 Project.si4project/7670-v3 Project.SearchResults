@@ -1,0 +1,8 @@
+---- MSG_STORAGE_SERVICE_FREE_FILESIZE_CHECK Matches (4 in 3 files) ----
+ap_video_record_func_key_active in ap_video_record.c (application\task_state_handling\state_video_record\src) : 						   //    msgQSend(StorageServiceQ, MSG_STORAGE_SERVICE_FREE_FILESIZE_CHECK, NULL, NULL, MSG_PRI_NORMAL);
+ap_video_record_func_key_active in ap_video_record.c (application\task_state_handling\state_video_record\src) : 			//	msgQSend(StorageServiceQ, MSG_STORAGE_SERVICE_FREE_FILESIZE_CHECK, NULL, NULL, MSG_PRI_NORMAL);
+task_storage_service_entry in task_storage_service.c (application\task_storage_service\src) :         	case MSG_STORAGE_SERVICE_FREE_FILESIZE_CHECK:
+turnkey_drv_msg.h (application\inc) line 332 : 	MSG_STORAGE_SERVICE_FREE_FILESIZE_CHECK,
+---- MSG_STORAGE_SERVICE_FREE_FILESIZE_CHECK Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+F:\work\item\7670\v003\programe\source\v002.SearchResults : File could not be opened.
